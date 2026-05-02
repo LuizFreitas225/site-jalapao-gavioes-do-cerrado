@@ -1,27 +1,12 @@
-import type { Metadata, Viewport } from "next";
-import { DM_Sans, Outfit } from "next/font/google";
+import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
-import "@/app/globals.css";
-import { routing } from "@/i18n/routing";
+import { LocaleHtmlLang } from "@/components/LocaleHtmlLang";
+import { routing, type Locale } from "@/i18n/routing";
 import { getProductionBaseUrl, SITE_NAME } from "@/lib/constants";
-
-const fontSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-sans",
-  display: "swap",
-});
-
-const fontDisplay = Outfit({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-display",
-  display: "swap",
-});
 
 type Props = Readonly<{
   children: ReactNode;
@@ -31,12 +16,6 @@ type Props = Readonly<{
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
-
-export const viewport: Viewport = {
-  themeColor: "#152238",
-  width: "device-width",
-  initialScale: 1,
-};
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const { locale } = await props.params;
@@ -56,7 +35,6 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     description,
     keywords: t("keywords"),
     robots: { index: true, follow: true },
-    manifest: "/site.webmanifest",
     alternates: {
       canonical: `/${locale}`,
       languages: {
@@ -101,14 +79,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html
-      suppressHydrationWarning
-      lang={locale}
-      className={`${fontSans.variable} ${fontDisplay.variable}`}
-    >
-      <body className="min-h-screen bg-brand-cream font-sans antialiased text-brand-earth">
-        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale as Locale} messages={messages}>
+      <LocaleHtmlLang />
+      {children}
+    </NextIntlClientProvider>
   );
 }

@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { AboutSection } from "@/components/AboutSection";
 import { ContactSection } from "@/components/ContactSection";
 import { CtaBanner } from "@/components/CtaBanner";
-import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
+import { FloatingSocial } from "@/components/FloatingSocial";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
@@ -35,7 +35,7 @@ export default async function HomePage(
       </main>
 
       <Footer locale={locale} />
-      <FloatingWhatsApp locale={locale} />
+      <FloatingSocial locale={locale} />
     </>
   );
 }

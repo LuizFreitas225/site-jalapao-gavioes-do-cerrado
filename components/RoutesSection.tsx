@@ -16,7 +16,6 @@ const routeWaKey: Record<RouteId, "jalapao" | "chapada-mesas" | "serra-gerais"> 
 };
 
 type RouteItemMessages = Readonly<{
-  itineraryIntro?: string;
   panels?: readonly { title: string; body: string }[];
 }>;
 
@@ -96,9 +95,7 @@ export async function RoutesSection({ locale }: Props) {
                   </ul>
 
                   <RouteItineraryAccordion
-                    heading={t("itineraryHeading")}
                     groupAriaLabel={t("itineraryGroupAria", { routeName: title })}
-                    intro={itemExtra?.itineraryIntro}
                     panels={panels}
                   />
 

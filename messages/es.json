@@ -12,6 +12,14 @@
     "localeSwitcher": "Idioma del sitio",
     "whatsappAria": "Escribir por WhatsApp"
   },
+  "social": {
+    "floatingClusterAria": "Accesos fijos — WhatsApp, Instagram y TripAdvisor",
+    "headerClusterAria": "Instagram y TripAdvisor — nueva pestaña",
+    "footerLabel": "Redes y contacto",
+    "ctaClusterLabel": "WhatsApp con texto del paso por el sitio · redes",
+    "instagramAria": "Abrir Instagram en una nueva pestaña",
+    "tripAdvisorAria": "Abrir Tripadvisor en una nueva pestaña"
+  },
   "nav": {
     "home": "Inicio",
     "about": "Nosotros",
@@ -24,7 +32,7 @@
     "title": "Vive Jalapão y lo mejor de Tocantins con quien lleva rutas propias.",
     "subtitle": "Itinerarios cuidados, seguridad prioritaria y hospitalidad cercana desde el primer mensaje hasta la despedida.",
     "cta": "Pedir cotización por WhatsApp",
-    "imageAlt": "Río Jalapão bordeado por vegetación del cerrado, agua tonalidad verdoso y luz natural"
+    "imageAlt": "Vista aérea de un fervedouro del Parque Estatal de Jalapão, poza cristalina y cerrado alrededor"
   },
   "about": {
     "title": "Sobre nosotros",
@@ -36,13 +44,11 @@
       "b2": "Íconos clásicos más sorpresas locales bien elegidas",
       "b3": "Logística estacional y listas de equipaje sinceras",
       "b4": "Concierge WhatsApp sin formularios infinitos"
-    },
-    "cadasturNote": "Mostraremos el certificado CADASTUR oficial del Ministerio de Turismo de Brasil apenas esté disponible."
+    }
   },
   "routesSection": {
     "title": "Itinerarios",
     "lead": "Elige tu destaque—tu mensaje llegará ya con contexto cuando abras el WhatsApp.",
-    "itineraryHeading": "Itinerario en texto — abre cada parte cuando quieras",
     "itineraryGroupAria": "Bloques desplegables del itinerario de {routeName}",
     "durations": {
       "threeFive": "De 3 a 5 días (bajo planeación)",
@@ -65,23 +71,26 @@
         "title": "Jalapão",
         "description": "Clásicos del parque estadual—fervedouros, dunas y Cachoeira da Velha—sin correr tanto que se pierdan los detalles.",
         "altCover": "Río y cerrado característicos del Jalapão",
-        "itineraryIntro": "Esquema ilustrativo—definimos con vos en WhatsApp orden real, tiempos y alojamiento.",
         "panels": [
           {
-            "title": "Día 1 — Llegada",
-            "body": "Encuentro en el punto acordado (aeropuerto, hotel o ciudad base).\nTraslados suaves con paradas cortas para estiramientos.\nCheck-in y briefing tranquilos sobre próximos días."
+            "title": "Día 1 — De Palmas hacia Jalapão",
+            "body": "Salida por la mañana desde Palmas-Miracema hacia Mateiros, con el paisaje abriéndose poco a poco sobre el cerrado. Paradas funcionales cuando tengan sentido: café, baño, fotos rápidas al horizonte.\nLlegada a Mateiros al final de la tarde o al inicio de la noche, según tu vuelo y el horario de recogida. Recepción en la hospedaje y tiempo para instalarse.\nConversación tranquila sobre el ritmo: sin perseguir decenas de paradas el mismo día, sol intensa durante buena parte de las excursiones y hidratación constante con gorro y protector obligatorios.\nCena tranquila o cena ligera, ya alineados sobre horarios del día siguiente con el equipo."
           },
           {
-            "title": "Día 2 — Pozas naturales y orillas",
-            "body": "Día enfocado en fervedouros y playas fluviales con tiempo suficiente para nadar.\nPosible almuerzo con cocina regional.\nRegreso antes del atardecer para descansar."
+            "title": "Día 2 — Río Novo, fervedouros y primer baño prolongado",
+            "body": "Salidas hacia donde el Río Novo muestra sus aguas cristalinas: fervedouros y playas fluviales pensados para estar mucho tiempo en el agua, no solo pasar de paso.\nEspacio fotográfico entre chapuzón y chapuzón—la idea es disfrutar pocos lugares y entender por qué Jalapão enamora así.\nAlmuerzo con cocinas aliadas cuando la ruta permita.\nRegreso antes de oscurecer; si todos quieren, encaja un atardecer breve en el pueblo sin apurar la cena."
           },
           {
-            "title": "Día 3 — Dunas y miradores",
-            "body": "Caminata ligera hasta dunas/miradores según grupo y clima.\nAtardeceres largos observando flora y fauna menor."
+            "title": "Día 3 — Dunas finas, miradores y tardes en la chapada",
+            "body": "Rumbo a las grandes dunas: arena dorada, subidas suaves y miradores donde Jalapão se estratifica contra el cerrado.\nMarcha según ritmo del grupo—sombra cuando exista, mucho líquido y pausas sin culpa si aprieta el calor.\nSi tu itinerario contempla miradores sobre la chapada al atardecer, elegimos el horario en que cambia cada matiz fotográfico.\nNoche clara típica de Mateiros; en temporada buena de cielos, vale mirar las estrellas antes de dormir."
           },
           {
-            "title": "Día 4 — Cascadas grandes y salida",
-            "body": "Paradas ante saltos icónicos si forman parte de tu programa contratado.\nSalida ordenada revisando billetes y vuelos con el equipo."
+            "title": "Día 4 — Cachoeira da Velha y pozas monumentales",
+            "body": "Día muy sensorial ante la gran Cachoeira da Velha: tiempo suficiente sobre la roca, baños sólo donde permitan instituciones o aliados autorizados y la seguridad de todos.\nSegún tu versión: combinar pozos cercanos sin convertir todo en una carrera interminable entre tantas paradas.\nAlmuerzo a mitad del día conforme trayecto pactado antes del viaje.\nVuelta con ese cansancio satisfactorio de muchas horas bajo el sol y en el agua."
+          },
+          {
+            "title": "Día 5 — Últimos detalles o regreso a Palmas",
+            "body": "En paquetes largos puede quedar una excursión corta por la mañana (según combinación) o un solo día para despedida ordenada: café tranquilo en el pueblo y maletas bien revisadas antes del bus o traslado privado hasta Palmas.\nSi tienes vuelo el mismo día, dejamos margen suficiente hacia Palmas-Miracema—lluvia fuerte y sorpresa de temporada en carretera justifican ese colchón hacia aeropuerto."
           }
         ]
       },
@@ -89,23 +98,22 @@
         "title": "Chapada das Mesas",
         "description": "Mesetas amazónicas tocantinesas hechas para lentes anchos—días largos y sunsets amplios.",
         "altCover": "Horizonte abierto sobre la Chapada das Mesas",
-        "itineraryIntro": "Texto modelo—la planificación puede variar con lluvias y tamaño del grupo.",
         "panels": [
           {
-            "title": "Día 1 — Adaptación climática",
-            "body": "Recepción e instalación cercana a puntos estratégicos.\nPrimera observación dorada desde un mirador bajo sin apuro."
+            "title": "Día 1 — Llegada y primer contacto con la chapada",
+            "body": "Recepción en Santa Teresa do Tocantins o base estratégica pactada junto a los cañones amazónicos, con hospedaje como punto de salida para miradores y rutas emblemáticas.\nTarde inicial con caminata corta junto al alojamiento para aclimatar cuerpo a calor y humedad de esta margen amazónica brasileña en Tocantins.\nPrimer ocaso donde la ruta lo permita: las mesas empiezan a mostrar tonos que quedan en la memoria visual de quien llega por primera vez.\nCena con cocinas locales donde entren pescados de río y guarniciones típicas del norte; el detalle fino del itinerario lo cerramos antes del viaje contigo."
           },
           {
-            "title": "Día 2 — Cañones y mesas altas",
-            "body": "Recorrido hasta miradores con explicación geológica.\nEspacio para fotos y descansos bajo sombra cuando la humedad exige pausa."
+            "title": "Día 2 — Cañones y miradores bajo cielo abierto",
+            "body": "Subida hasta miradores donde el cañón amazónico aparece completo: paredes profundas, viento alto y sensación de inmensidad que define la región.\nContexto rápido de geología y clima húmedo del borde amazónico—útil saber cómo puede cambiar algunos trayectos si llueve fuerte.\nFotografía con calma: la luz gira rápido y cada hora redefine el relieve; gorro, agua y bloqueador imprescindibles porque sombra suele escasear en miradores descubiertos.\nAlmuerzo a mitad de día o tras el bloque principal según programa cerrado; tarde disponible para descansar en la posada antes de cualquier complemento si hay energía."
           },
           {
-            "title": "Día 3 — Cascadas para nadar",
-            "body": "Pozos y cataratas donde el tiempo se mide solo por el rumor del agua.\nSenderos opcionales a sitios menos concurridos."
+            "title": "Día 3 — Cataratas, pozos grandes y chapuzón debajo del salto",
+            "body": "Día enfocado en caídas grandes y pozas amplias: senderos moderados hasta puntos de baño sólo cuando niveles del río y condiciones garanticen seguridad.\nLluvias intensas o piedra resbalosa pueden cambiar orden de salidas desde la mañana—priorizamos grupo y recomendaciones locales.\nRato prolongado bordeando el agua: nadar, flotar o quedarte en piedra templada oyendo la catarata.\nPodemos cerrar más temprano si sube demasiado el caudal en épocas muy húmedas—viajar así es moverse dentro de naturaleza viva."
           },
           {
-            "title": "Días 4 a 5 — Comunidades y regreso",
-            "body": "Visitas conscientes cuando estén pactadas.\nÚltimos almuerzos regionales antes del traslado al aeropuerto."
+            "title": "Días 4 y 5 — Comunidades, cocina regional y salida",
+            "body": "Si tu paquete lo incluye: visitas cortas a comunidades ribereñas o pequeñas propiedades con etiqueta responsable—pagar trabajo justo, pedir permiso antes de foto de personas, voz suave junto casas.\nAlmuerzos caseros cerran la parte afectiva: sabores de pescado, harinas amazónicas y condimentos del arco norte tocantinense.\nAntes del traslado de regreso, café camino revisando equipaje y documentos con tiempo—margen extra evita llegar corrido antes de largas conexiones.\nHorarios finales hasta Palmas u otros ejes pactados siempre antes del viaje, porque festivos y lluvias alargan mucho tiempo de carretera."
           }
         ]
       },
@@ -113,19 +121,22 @@
         "title": "Serra Gerais",
         "description": "Cerrado con identidad marcada—comunidades vivas, senderos, ríos y hospitalidad marcada.",
         "altCover": "Relevés del cerrado en Serra Gerais",
-        "itineraryIntro": "Circuito adaptable alrededor de ríos y cultura local.",
         "panels": [
           {
-            "title": "Día 1 — Entrada a la región",
-            "body": "Traslados con historia breve sobre paisajes y conservación.\nCena donde se alinean expectativas y horarios de salida madrugadora."
+            "title": "Día 1 — Entrada al territorio y bienvenida al cerrado",
+            "body": "Traslado a la base cercana a Natividade o municipio acordado conforme la hospedaje y los tramos de comunidades, senderos y áreas estatales contemplados en tu paquete contratado.\nParadas mirador donde el chapadão empieza en el horizonte: campo sujo típico, ipês, piedra al descubierto y cerrado que se pierde de vista.\nAlineamos hábitos mínimos de visita: no dejar basura en el camino, voz baja cerca de las casas y fotos de vecinos solo con permiso acordado antes.\nCena de llegada con sabores tocantinenses cuando los menús lo permitan y charla clara sobre horario de salida al día siguiente siempre con suficiente luz para caminar con seguridad — sin madrugadas forzadas innecesarias."
           },
           {
-            "title": "Día 2 — Senderos moderados",
-            "body": "Trek guiado pensado para grupo heterogéneo.\nMomentos hidratación y chapuzón en tramos disponibles.\nRelax en casa base si existe hamaca/disponibilidad."
+            "title": "Día 2 — Comunidades quilombolas y senderos en el cerrado",
+            "body": "Cuando viene en el paquete, visitamos núcleos comunales o quilombolas con visita consciente: escuchar lo que cada familia quiera contar; valorar artesanías con precio justo por el trabajo; evitar regateos irrespetuosos.\nCaminata moderada donde buritis y arroyos atraviesan el cerrado observando fauna con zoom y poco ruido — unos minutos de silencio a la sombra suele valer más que perseguir animales.\nBaños en arroyos sólo cuando contrato y normas locales autorizan profundidad y caudal seguros junto al guía.\nVolvemos a la posada todavía de día para ducha, cena y ese rato en hamaca o balcones contando lo que pasó en el sendero."
           },
           {
-            "title": "Día 3 — Cultura y despedida",
-            "body": "Pequeños encuentros socioculturales pactados.\nDespedida y transfer coordinado hasta el siguiente punto de viaje."
+            "title": "Día 3 — Últimas salidas o despedida tranquila",
+            "body": "Según el programa puede ser madrugar al mirante, visitar un pozo cercano — o café sin prisa en el patio de la hospedaje ordenando bien maletas.\nProductores y talleres entran solo con hora concertada porque muchas personas tienen otras labores además de recibir turistas.\nAlmuerzo de despedida abundante: incluso con ritmo tranquilo se camina bastante en cerrado; aparecen platos típicos como arroz carreteiro si la sazón permite.\nTraslado de vuelta con checklist de equipaje y documentos; dejamos siempre holgura suficiente ante conexiones y vuelos para no terminar el viaje ya estresado."
+          },
+          {
+            "title": "Días 4 a 7 — Río São Miguel, más senderos o festivales",
+            "body": "Las estancias largas combinan paseos por el río São Miguel en tramos públicos definidos con barqueros aliados, respetando ocupación máxima, chaleco y recomendaciones de seguridad reforzadas en crecida.\nLas secuencias de trekking pueden subir despacio el kilometraje diario con pausas a la sombra — llevamos un mínimo de dos litros de agua por adulto y recomendamos reponer en la posada cada mañana antes de salir.\nMezclar fechas festivas locales solo tiene sentido con interés explícito en agenda cultural: multitudes, posadas y tráfico cambian mucho versus circuitos silenciosos de cerrado.\nCualquier día extra lo cerramos antes del viaje contigo tomando temporada de lluvias, preparación física y la mejor época por tramo."
           }
         ]
       }
@@ -171,15 +182,20 @@
   },
   "footer": {
     "rights": "© {year} Jalapão Gaviões do Cerrado. Todos los derechos reservados.",
-    "tagline": "Caminos de cerrado · aguas cristalinas · buenas compañías"
+    "tagline": "Caminos de cerrado · aguas cristalinas · buenas compañías",
+    "heroPhotoCreditBefore": "Foto principal: fervedouro en Jalapão (aérea). © Cléber Vinicius Demori ·",
+    "heroPhotoCreditAfter": "· CC BY-SA 4.0",
+    "heroPhotoCreditLinkAria": "Página de la imagen en Wikimedia Commons (abre en una nueva pestaña)",
+    "cadasturCaption": "Registro oficial en Cadastur",
+    "cadasturAlt": "Certificado digital Cadastur — Agencia de Turismo registrada en el Ministerio de Turismo, válido de junio de 2025 a junio de 2027. Código QR para verificar autenticidad."
   },
   "whatsappMessages": {
-    "hero": "¡Hola, Jalapão Gaviões do Cerrado! Quiero una cotización personalizada.",
-    "jalapao": "¡Hola! Me interesa un itinerario por Jalapão. ¿Podemos conversar?",
-    "chapada-mesas": "¡Hola! Quiero cotizar Chapada das Mesas.",
-    "serra-gerais": "¡Hola! Necesito información sobre Serra Gerais.",
-    "default": "¡Hola, Jalapão Gaviões do Cerrado! ¿Me ayudan con un itinerario?",
-    "afterRoutes": "¡Hola! Vi los itinerarios en el sitio y tengo algunas dudas."
+    "hero": "¡Hola! Escribo desde el sitio de Jalapão Gaviões do Cerrado — quiero una cotización personalizada.",
+    "jalapao": "¡Hola! Llegué desde el sitio de Jalapão Gaviões do Cerrado — me interesa un itinerario por Jalapão. ¿Podemos conversar?",
+    "chapada-mesas": "¡Hola! Llegué desde el sitio de Jalapão Gaviões do Cerrado — quiero cotizar Chapada das Mesas.",
+    "serra-gerais": "¡Hola! Llegué desde el sitio de Jalapão Gaviões do Cerrado — necesito información sobre Serra Gerais.",
+    "default": "¡Hola! Te escribo desde el sitio de Jalapão Gaviões do Cerrado — ¿me ayudan con un itinerario?",
+    "afterRoutes": "¡Hola! Vine desde el sitio (sección de itinerarios) — tengo algunas dudas."
   },
   "links": {
     "downloadPdf": "Descargar PDF del itinerario",

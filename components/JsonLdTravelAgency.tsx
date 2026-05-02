@@ -1,4 +1,5 @@
 import { CONTACT_EMAIL_FALLBACK, SITE_NAME, getProductionBaseUrl } from "@/lib/constants";
+import { instagramProfileUrl, tripAdvisorProfileUrl } from "@/lib/social";
 import { whatsappDigits } from "@/lib/whatsapp";
 
 type Props = Readonly<{ locale: string }>;
@@ -6,6 +7,11 @@ type Props = Readonly<{ locale: string }>;
 export function JsonLdTravelAgency({ locale }: Props) {
   const url = `${getProductionBaseUrl()}/${locale}`;
   const whatsappHref = `https://wa.me/${whatsappDigits()}`;
+  const sameAs = [
+    whatsappHref,
+    instagramProfileUrl(),
+    tripAdvisorProfileUrl(),
+  ].filter((u): u is string => Boolean(u));
 
   const data = {
     "@context": "https://schema.org",
@@ -34,7 +40,7 @@ export function JsonLdTravelAgency({ locale }: Props) {
       availability: "https://schema.org/InStock",
       url: whatsappHref,
     },
-    sameAs: [whatsappHref],
+    sameAs,
   };
 
   return (

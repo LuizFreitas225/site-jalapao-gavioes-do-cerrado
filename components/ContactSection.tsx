@@ -30,13 +30,13 @@ export async function ContactSection({ locale }: Props) {
           </h2>
           <p className="text-lg text-brand-earth/90">{t("lead")}</p>
           <div className="grid gap-3 text-sm font-medium text-brand-navy">
-            <div className="rounded-2xl border border-brand-navy/15 bg-brand-cream px-5 py-4">
+            <div className="rounded-2xl border border-brand-navy/15 bg-brand-cream px-5 py-5 sm:px-6 sm:py-6">
               <p className="text-xs uppercase tracking-[0.2em] text-brand-navy/60">
                 {t("whatsappHint")}
               </p>
               <WhatsAppButton
                 href={href}
-                className="mt-3 w-full sm:w-fit"
+                className="mt-4 min-h-[3.25rem] w-full rounded-2xl py-4 text-base font-semibold sm:min-h-14 sm:py-5 sm:text-lg"
                 ariaLabel={tA11y("whatsappAria")}
               >
                 {t("secondaryCta")}

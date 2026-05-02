@@ -36,7 +36,7 @@ export function LocaleSwitcher({ current, ariaLabel }: Props) {
       </label>
       <select
         id="locale-switcher"
-        className="rounded-md border border-brand-navy/20 bg-white/90 px-2 py-1.5 text-sm font-medium text-brand-navy shadow-sm backdrop-blur hover:border-brand-navy/40 disabled:opacity-60"
+        className="rounded-md border border-brand-navy/20 bg-white/90 px-1.5 py-1 text-xs font-medium text-brand-navy shadow-sm backdrop-blur hover:border-brand-navy/40 disabled:opacity-60 sm:px-2 sm:py-1.5 sm:text-sm"
         value={current}
         disabled={pending}
         onChange={(e) => onChange(e.target.value)}

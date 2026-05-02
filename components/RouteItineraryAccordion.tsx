@@ -1,28 +1,15 @@
 type Panel = Readonly<{ title: string; body: string }>;
 
 type Props = Readonly<{
-  heading: string;
   groupAriaLabel: string;
-  intro?: string;
   panels: readonly Panel[];
 }>;
 
-export function RouteItineraryAccordion({
-  heading,
-  groupAriaLabel,
-  intro,
-  panels,
-}: Props) {
+export function RouteItineraryAccordion({ groupAriaLabel, panels }: Props) {
   if (!panels.length) return null;
 
   return (
     <div className="space-y-2" role="group" aria-label={groupAriaLabel}>
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-navy/55">
-        {heading}
-      </p>
-      {intro ? (
-        <p className="text-xs leading-relaxed text-brand-earth/85">{intro}</p>
-      ) : null}
       <div className="space-y-2">
         {panels.map((panel, i) => (
           <details

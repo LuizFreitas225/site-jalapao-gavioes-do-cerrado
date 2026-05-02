@@ -42,7 +42,6 @@ export async function AboutSection({ locale }: Props) {
               </li>
             ))}
           </ul>
-          <p className="text-sm text-brand-navy/70">{t("about.cadasturNote")}</p>
         </div>
       </div>
     </section>

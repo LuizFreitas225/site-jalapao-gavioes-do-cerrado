@@ -1,17 +1,12 @@
 import { getTranslations } from "next-intl/server";
 
-import { buildWhatsAppHref } from "@/lib/whatsapp";
-
-import { WhatsAppButton } from "./WhatsAppButton";
+import { SocialIconStripCta } from "./SocialIconStripCta";
 
 type Props = Readonly<{ locale: string }>;
 
 export async function CtaBanner({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "ctaBanner" });
-  const tWa = await getTranslations({ locale, namespace: "whatsappMessages" });
-  const tA11y = await getTranslations({ locale, namespace: "a11y" });
-
-  const href = buildWhatsAppHref(tWa("afterRoutes"));
+  const tSocial = await getTranslations({ locale, namespace: "social" });
 
   return (
     <aside
@@ -28,15 +23,11 @@ export async function CtaBanner({ locale }: Props) {
           </h2>
           <p className="text-base text-brand-sand">{t("subtitle")}</p>
         </div>
-        <div className="flex justify-center lg:justify-end">
-          <WhatsAppButton
-            href={href}
-            variant="ghost"
-            className="w-full bg-brand-cream text-brand-navy shadow-lg shadow-brand-navy/20 sm:w-auto"
-            ariaLabel={tA11y("whatsappAria")}
-          >
-            {t("primary")}
-          </WhatsAppButton>
+        <div className="flex flex-col items-center gap-2 lg:items-end">
+          <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-brand-sand/70">
+            {tSocial("ctaClusterLabel")}
+          </p>
+          <SocialIconStripCta locale={locale} />
         </div>
       </div>
     </aside>

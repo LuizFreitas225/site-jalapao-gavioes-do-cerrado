@@ -12,6 +12,14 @@
     "localeSwitcher": "Website language",
     "whatsappAria": "Chat on WhatsApp"
   },
+  "social": {
+    "floatingClusterAria": "WhatsApp, Instagram, and TripAdvisor shortcuts",
+    "headerClusterAria": "Instagram and TripAdvisor — opens in a new tab",
+    "footerLabel": "Social & messaging",
+    "ctaClusterLabel": "WhatsApp prefilled from the site · social next to it",
+    "instagramAria": "Open Instagram in a new tab",
+    "tripAdvisorAria": "Open Tripadvisor in a new tab"
+  },
   "nav": {
     "home": "Home",
     "about": "About",
@@ -24,7 +32,7 @@
     "title": "Experience Jalapão and Tocantins with guides shaped by road and wilderness.",
     "subtitle": "Carefully crafted routes, safety first, sincere hospitality—from first WhatsApp ping to farewell.",
     "cta": "Get a quote via WhatsApp",
-    "imageAlt": "Jalapão river bordered by cerrado vegetation in natural daylight, green-tinted water"
+    "imageAlt": "Aerial view of a fervedouro natural spring in Jalapão State Park, crystalline pool and cerrado surrounds"
   },
   "about": {
     "title": "About us",
@@ -36,13 +44,11 @@
       "b2": "Iconic must-sees plus local curveballs worth the detours",
       "b3": "Seasonal logistics, packing lists, and honest expectations",
       "b4": "WhatsApp concierge—minimal forms, maximal dialogue"
-    },
-    "cadasturNote": "We will showcase the official CADASTUR certificate from Brazil’s tourism ministry once the compliant asset arrives."
+    }
   },
   "routesSection": {
     "title": "Itineraries",
     "lead": "Pick your highlight—we’ll already know why you knocked when WhatsApp pings.",
-    "itineraryHeading": "Itinerary in text — open each block when ready",
     "itineraryGroupAria": "Expandable itinerary sections for {routeName}",
     "durations": {
       "threeFive": "3 to 5 days (tailored timelines)",
@@ -65,23 +71,26 @@
         "title": "Jalapão",
         "description": "State park staples—fervedouros, dunes, Cachoeira da Velha—with breathing room baked into every day.",
         "altCover": "Jalapão river winding through cerrado greenery",
-        "itineraryIntro": "Illustrative outline—we lock the real order, times, and lodges with you on WhatsApp.",
         "panels": [
           {
-            "title": "Day 1 — Arrival",
-            "body": "Pickup at the agreed hub (airport, hotel, or roadside meet point).\nScenic transfers with short stretch breaks.\nCheck-in and light briefing on pacing, hydration, sunscreen, and what sunrise looks like tomorrow."
+            "title": "Day 1 — Palmas toward Jalapão",
+            "body": "Morning departure from Palmas-Miracema toward Mateiros, with the landscape slowly opening into typical cerrado. Practical stops whenever they make sense—coffee, restrooms, quick horizon snaps.\nArrival in Mateiros late afternoon or early evening, depending on your flight and pickup time. Check-in at the lodge with time to settle in.\nEasy chat about next days’ pacing—no frantic rush through dozens of spots in one trip; steady sun exposure and steady water intake, hats and sunscreen mandatory.\nDinner unrushed—light fare if tired—and timings for tomorrow squared away with your hosts."
           },
           {
-            "title": "Day 2 — Springs & riverbanks",
-            "body": "Slow introduction to fervedouros and river beaches.\nWide windows for swims and portraits.\nLunch breaks with locals when logistics allow before an early evening rest."
+            "title": "Day 2 — Rio Novo, fervedouros and first plunge",
+            "body": "Outings toward crystal-clear stretches of the Rio Novo: fervedouros and sandy river beaches framed for longer swims—not drive-by glimpses.\nPhotography paced between dips so you savour a handful of stellar places.\nSit-down lunch at partner kitchens when routing allows.\nBack near Mateiros before dark; squeeze in village sunset if everybody’s game without rushing supper."
           },
           {
-            "title": "Day 3 — Dunes & lookouts",
-            "body": "Optional dune crossings or mellow ridge hikes.\nQuiet golden-hour moments and campfire talks when skies cooperate."
+            "title": "Day 3 — Fine dunes, lookouts & chapada sunsets",
+            "body": "Route to towering golden dunes—soft climbs, ridges and lookouts layering Jalapão against thicker cerrado backdrops.\nWalk at the collective pace—shade pockets, litres of liquids, guilt-free pauses when heat spikes.\nIf your customised plan includes plateau lookouts toward sunset we pick angles where light shifts redefine every snap.\nClear Mateiros nights—in great stargazing months it’s worth a skyward glance before bed."
           },
           {
-            "title": "Day 4 — Signature falls & farewell",
-            "body": "Big-water viewpoints (e.g. Cachoeira da Velha on your itinerary build), long pauses.\nDepartures synced with onward flights via WhatsApp confirmations."
+            "title": "Day 4 — Cachoeira da Velha & monumental pools",
+            "body": "Full sensory immersion at Cachoeira da Velha: generous standing time on sculpted rock, swims only where authorised partners and ranger guidance allow collective safety.\nDepending on build, nearby pools slot in thoughtfully—never a frantic relay between endless stops.\nLunch midpoint per pre-trip logistics.\nReturn pleasantly spent after hours underwater and beneath open sun."
+          },
+          {
+            "title": "Day 5 — Final touches or return to Palmas",
+            "body": "On longer bundles this day keeps a lighter morning excursion (if slated) or is dedicated to structured farewell: slow village coffee and luggage audits before shuttle or chartered van to Palmas.\nSame-day flight departures bake padding into the Palmas-Miracema run—wet seasons and surprise traffic deserve that buffer heading to the airport."
           }
         ]
       },
@@ -89,23 +98,22 @@
         "title": "Chapada das Mesas",
         "description": "Amazon-inflected plateaus begging for wide-angle lenses—long days mirrored by luminous sunsets.",
         "altCover": "Chapada das Mesas open horizon with plateau vegetation",
-        "itineraryIntro": "Model text—daily flow shifts with seasons and group size.",
         "panels": [
           {
-            "title": "Day 1 — Settling into the plateau",
-            "body": "Arrival hospitality and lodging near key lookouts.\nShort neighborhood walk or sunset vantage to acclimate to heat and altitude."
+            "title": "Day 1 — Arrival & first contact with the chapada",
+            "body": "Welcome in Santa Teresa do Tocantins or another strategic base near the Amazon-flavoured canyons, with lodging set up as hub for lookouts and signature trails.\nLate afternoon we take a short walk near the inn to acclimate to heat and humidity along Tocantins’ Amazon-edge microclimate.\nInitial sunset whenever routing allows—mesas already painting colours you’ll remember on camera.\nDinner with local kitchens featuring river fish and northern Brazilian sides; fine details of this leg we lock with you before arrival."
           },
           {
-            "title": "Day 2 — Canyons & mesa horizons",
-            "body": "Panoramic belvederes explaining how the sandstone mesas evolved.\nPlenty of water breaks and shaded pauses.\nFlexible timing for drone-free photo sessions."
+            "title": "Day 2 — Canyons under an open sky",
+            "body": "Ascent to lookouts where the Amazon canyon opens at once: deep walls, wind aloft, that sense of scale defining the region.\nShort geology and climate context—helpful to understand why rain may shuffle certain paths.\nPhotography unhurried; light pivots fast and each hour reshapes the relief—hats, water and sunscreen are non-negotiable under largely shadeless belvederes.\nLunch mid-day or after the core stretch per your closed itinerary; afternoon buffer at the inn before any optional add-on if energy and schedule align."
           },
           {
-            "title": "Day 3 — Waterfalls & swims",
-            "body": "Full swim blocks at cascading pools.\nOptional short walks to quieter grottoes when stamina matches."
+            "title": "Day 3 — Waterfalls, pools & swims below the falls",
+            "body": "Focused on major drops and wide pools: moderate walks to swim spots when river level and trail grip keep everyone safe.\nHeavy rain or slick stone may reshuffle the morning—group wellbeing and local guidance lead.\nLong stretches riverside to swim, float or simply sit on sun-warmed rock listening to the cascade.\nWe may wrap earlier if water volume spikes in very wet windows—that’s part of travelling through a living landscape."
           },
           {
-            "title": "Days 4–5 — Communities & exit",
-            "body": "Considerate visits to artisan partners.\nComfort food stops on the highway back and luggage checks before outbound transfers."
+            "title": "Days 4–5 — Riverside communities, regional food & exit",
+            "body": "When your package includes it: brief visits to river communities or small farms with mindful etiquette—fair pay for crafts and services, ask before photographing residents, quieter voices beside homes.\nHome-style lunches underscore fish, manioc flours and Amazon-Tocantins seasonings.\nBefore the transfer back, roadside coffee plus luggage and documents reviewed calmly—built-in slack avoids scrambling before flights or lengthy connections.\nFinal timings toward Palmas or other hubs only after pre-trip planning because holidays, crowds and rains stretch drive times noticeably."
           }
         ]
       },
@@ -113,19 +121,22 @@
         "title": "Serra Gerais",
         "description": "Vibrant communities, braided rivers, trekking depth—classic cerrado energy with hospitable pacing.",
         "altCover": "Rolling cerrado ridges in Serra Gerais sunlight",
-        "itineraryIntro": "Flexible circuit around rivers, trails, and local stories.",
         "panels": [
           {
-            "title": "Day 1 — Entering the cerrado maze",
-            "body": "Transfer with interpretive roadside stops covering buriti corridors and river basins.\nLow-volume travel etiquette chat over dinner.\nSunrise pact for hikers who crave early light."
+            "title": "Day 1 — Crossing into the cerrado territory",
+            "body": "Transfer toward your base near Natividade or whichever municipality anchors lodging and the community, trail and state-sector segments spelled out in your contract.\nScenic stops where the chapadão first breaks the skyline—classic campo sujo, ipês, rocky outcrops and cerrado to the horizon.\nWe baseline visitor habits: carry trash out, keep voices low by homes, photograph residents only after clear consent.\nWelcome dinner showcasing Tocantins flavours where menus allow plus a straight talk about next morning departure while daylight still safeguards trailhead access—no gratuitous dawn alarms."
           },
           {
-            "title": "Day 2 — Trails & braided rivers",
-            "body": "Moderate trekking paced to the slowest teammate.\nSwimholes shaded by palms or sandstone bands.\nHammock naps welcomed when the casa base offers them."
+            "title": "Day 2 — Quilombo communities & cerrado trails",
+            "body": "When included we visit communal or quilombo nuclei ethically—listen openly, honour crafts with fair pricing, steer clear of aggressive haggling.\nModerate walks where buritis and creeks braid through cerrado wildlife moments favour telephoto silence over noisy pursuit.\nContracted creek swims happen solely where guides and local norms confirm safe depth and current.\nWe return early enough for showers, supper and hammock time swapping stories about what crossed the trail."
           },
           {
-            "title": "Day 3 — Culture & farewell",
-            "body": "Short loops through partner communities.\nFarewell meal and transfer timing matched to onward connections."
+            "title": "Day 3 — Last outings or mellow farewell",
+            "body": "Depending on packaging: lookout at dawn, quick splash at a neighbouring pool—or slow coffee by the courtyard with luggage squared away.\nFarm visits or artisan studios stay appointment-based because hosts juggle hospitality with other livelihoods.\nHearty farewell lunch; even easy-going cerrado itineraries rack up footsteps—dishes such as hearty rice mixes appear when seasonal produce allows.\nReturn transfer with suitcase and passport double-check plus scheduled slack so flights home don’t reopen the stress valve."
+          },
+          {
+            "title": "Days 4–7 — Rio São Miguel, longer hikes or festive dates",
+            "body": "Extended stays weave Rio São Miguel outings across clearly defined public segments with partner boat crews, respecting capacity caps, life jackets and safety briefings tightened during rainy surges.\nMulti-day trekking gently ramps kilometres with shade breaks—we recommend two litres minimum per adult and refilling at base every sunrise before heading out.\nLayering regional festivals onto nature-focused trips only happens with explicit cultural interest because crowds, lodging and highways diverge massively from quieter cerrado circuits.\nEvery extra night finalises alongside you beforehand—rainy season rhythms, conditioning and optimum months for specific segments steer the customised plan."
           }
         ]
       }
@@ -171,15 +182,20 @@
   },
   "footer": {
     "rights": "© {year} Jalapão Gaviões do Cerrado. All rights reserved.",
-    "tagline": "Cerrado roads · crystal waters · good company"
+    "tagline": "Cerrado roads · crystal waters · good company",
+    "heroPhotoCreditBefore": "Hero image: Jalapão fervedouro (aerial). © Cléber Vinicius Demori ·",
+    "heroPhotoCreditAfter": "· CC BY-SA 4.0",
+    "heroPhotoCreditLinkAria": "Photo page on Wikimedia Commons (opens in a new tab)",
+    "cadasturCaption": "Official Cadastur registration",
+    "cadasturAlt": "Cadastur digital certificate — Tourism agency registered with the Ministry of Tourism, valid June 2025 to June 2027. QR code for authenticity verification."
   },
   "whatsappMessages": {
-    "hero": "Hello Jalapão Gaviões do Cerrado! I’d like a tailored quote.",
-    "jalapao": "Hi! I’m interested in a Jalapão itinerary—can we talk?",
-    "chapada-mesas": "Hello! I’d love pricing for Chapada das Mesas.",
-    "serra-gerais": "Hi! May I get details on Serra Gerais routes?",
-    "default": "Hello Jalapão Gaviões do Cerrado! Can you help me plan a trip?",
-    "afterRoutes": "Hi! I saw your itineraries online and have a few quick questions."
+    "hero": "Hi! I’m messaging from the Jalapão Gaviões do Cerrado website — I’d like a tailored quote.",
+    "jalapao": "Hi! I came from the Jalapão Gaviões do Cerrado website — I’m interested in a Jalapão itinerary. Can we talk?",
+    "chapada-mesas": "Hi! I came from the Jalapão Gaviões do Cerrado website — I’d like pricing/experiences for Chapada das Mesas.",
+    "serra-gerais": "Hi! I came from the Jalapão Gaviões do Cerrado website — may I get details on Serra Gerais?",
+    "default": "Hi! I’m contacting you from the Jalapão Gaviões do Cerrado website — can you help me plan an itinerary?",
+    "afterRoutes": "Hi! I’m on your website (itineraries section) — I have a few quick questions."
   },
   "links": {
     "downloadPdf": "Download itinerary PDF",
