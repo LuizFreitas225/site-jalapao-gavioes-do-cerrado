@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Paleta inspirada em logo/aventura Cerrado: tons profundos + areia + âmbar/dourado */
+  --color-brand-navy: #152238;
+  --color-brand-earth: #2d2319;
+  --color-brand-gold: #c9a03a;
+  --color-brand-amber: #e3b057;
+  --color-brand-sand: #efe6d8;
+  --color-brand-cream: #faf6ef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-gold);
+  outline-offset: 3px;
+}
+
+body {
+  color: var(--color-brand-earth);
+  background-color: var(--color-brand-cream);
+}

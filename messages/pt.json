@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Jalapão Gaviões do Cerrado — Roteiros e experiências no Tocantins",
+    "description": "Agência especializada em roteiros de aventura no Jalapão, Chapada das Mesas e Serra Gerais. Atendimento humano pelo WhatsApp, grupos bem conduzidos e foco na natureza do Cerrado.",
+    "keywords": "Jalapão, Tocantins, Chapada das Mesas, Serra Gerais, ecoturismo, agência de viagens, Gaviões do Cerrado"
+  },
+  "a11y": {
+    "mainNavigation": "Navegação principal",
+    "skipToContent": "Pular para o conteúdo",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "localeSwitcher": "Idioma do site",
+    "whatsappAria": "Falar pelo WhatsApp"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre nós",
+    "routes": "Roteiros",
+    "testimonials": "Depoimentos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "kicker": "Ecoturismo & aventura no Cerrado",
+    "title": "Viva o Jalapão e o melhor do Tocantins com quem respira estrada.",
+    "subtitle": "Roteiros cuidadosos, segurança e hospitalidade genuína — do primeiro contato à última foto da viagem.",
+    "cta": "Pedir uma cotação no WhatsApp",
+    "imageAlt": "Rio e vegetação do Jalapão sob luz natural, tons de água esverdeada e cerrado ao redor"
+  },
+  "about": {
+    "title": "Sobre nós",
+    "lead": "Somos apaixonados por natureza selvagem, silêncios amplos e a energia forte do Centro-Norte brasileiro.",
+    "p1": "Na Jalapão Gaviões do Cerrado planejamos experiências que combinam trajetos bem pensados, respeito ao tempo de cada lugar e uma equipe próxima de você antes, durante e depois da viagem.",
+    "p2": "Trabalhamos com roteiros no Jalapão, na Chapada das Mesas e na região de Serra Gerais — destinos que mudam como o clima da savana.",
+    "bullets": {
+      "b1": "Condução cuidadosa para grupos e famílias",
+      "b2": "Pontos obrigatórios e surpresas fora do óbvio",
+      "b3": "Orientação sobre melhor época, logística e o que levar",
+      "b4": "Atendimento direto pelo WhatsApp, sem formulários longos"
+    },
+    "cadasturNote": "Estamos estruturando a exibição do certificado oficial CADASTUR do Ministério do Turismo no site assim que disponibilizado."
+  },
+  "routesSection": {
+    "title": "Roteiros",
+    "lead": "Escolha um destaque e já inicie sua conversa conosco com o contexto da viagem nos primeiros cliques.",
+    "itineraryHeading": "Roteiro em texto — abra cada parte quando quiser",
+    "itineraryGroupAria": "Trechos expansíveis do roteiro de {routeName}",
+    "durations": {
+      "threeFive": "3 a 5 dias (sob planejamento)",
+      "fourFive": "4 a 5 dias (PDF disponível)",
+      "threeSeven": "De 3 a 7 dias (sob planejamento)"
+    },
+    "highlights": {
+      "hFervedouros": "Fervedouiros e praias fluviais",
+      "hDunas": "Dunas, mirantes e cenários cinematográficos",
+      "hMico": "Passeios com foco em flora, fauna e luz dourada",
+      "hCanyon": "Cânions, chapadas e paisagens abertas",
+      "hCachoeiras": "Cachoeiras com tempo para banho",
+      "hHistoria": "Sítios históricos e comunidades locais",
+      "hQuilombos": "Comunidades, cultura local e preservação",
+      "hTrilhas": "Trilhas sob medida para o grupo",
+      "hRio": "Rios, poços e momento para desacelerar"
+    },
+    "items": {
+      "jalapao": {
+        "title": "Jalapão",
+        "description": "Ícones do Parque Estadual: fervedouros, dunas do Jalapão, Cachoeira da Velha — roteiros clássicos com ritmo tranquilo.",
+        "altCover": "Rio e paisagem do Jalapão com vegetação de cerrado",
+        "itineraryIntro": "Resumo ilustrativo — a ordem real dos passeios, horários e pernoites definimos com você no WhatsApp.",
+        "panels": [
+          {
+            "title": "Dia 1 — Chegada e acolhida",
+            "body": "Encontro no horário e local combinados (aeroporto, hotel ou ponto de apoio na região).\nTransfer para a base com paradas leves para alongar as pernas e sentir o clima do cerrado.\nCheck-in, café da tarde ou jantar leve conforme o horário, briefing sobre os próximos dias e recomendações simples de roupa e proteção solar."
+          },
+          {
+            "title": "Dia 2 — Águas cristalinas e ritmo manso",
+            "body": "Dia pensado para o choque inicial com os fervedouros e praias fluviais, sempre com bastante tempo para banho e fotos.\nAlmoço em parceiros locais quando couber na logística.\nRetorno tranquilo antes do pôr do sol para recuperar energia para o próximo passeio."
+          },
+          {
+            "title": "Dia 3 — Dunas, mirantes ou trilhas leves",
+            "body": "Subida opcional ao mirante ou caminhada curta até dunas quando o trajeto permite — ritmo de observação.\nMomentos livres ao entardecer e noite sob céu aberto quando o tempo colaborar."
+          },
+          {
+            "title": "Dia 4 — Ícones e despedidas",
+            "body": "Cachoeiras de grande porte (ex.: Cachoeira da Velha quando prevista na sua versão do roteiro), pausas longas nas piscinas naturais.\nOrganização da volta e tempo para comprar uma lembrancinha antes do transfer de retorno."
+          }
+        ]
+      },
+      "chapada-mesas": {
+        "title": "Chapada das Mesas",
+        "description": "Cânions amazônicos tocantinenses com imensidão horizontal: ideal para fotografia e dias longos sob o horizonte aberto.",
+        "altCover": "Chapada das Mesas com vegetação típica e horizonte aberto",
+        "itineraryIntro": "Este texto é modelo — durações e dias exatos variam pela sua data e grupo.",
+        "panels": [
+          {
+            "title": "Dia 1 — Adaptação ao clima chapadense",
+            "body": "Chegada, recepção e hospedagem em bases estratégicas para os mirantes.\nCaminhada curta próxima à pousada para ajustar o corpo ao calor úmido e tomar conta do nascer ou pôr do sol inicial."
+          },
+          {
+            "title": "Dia 2 — Cânions e mirantes panorâmicos",
+            "body": "Rota leve até mirantes sobre as mesas, com bastante hidratação.\nMomentos fotográficos com explicações sobre formação das chapadas.\nPauses longos porque a luz muda rápido e cada hora conta."
+          },
+          {
+            "title": "Dia 3 — Cachoeiras e banhos",
+            "body": "Dia marcado pelas quedas d’água com tempo real para nadar ou só relaxar nas bancadas de pedra.\nPossível trilhas curtas até poços menos movimentados quando o nivelamento do grupo permite."
+          },
+          {
+            "title": "Dias 4 a 5 — Comunidades e retorno",
+            "body": "Visita rápida a comunidades quando prevista no programa, sempre com ética de visitação.\nCoffee break na estrada ou almoço em cozinha regional.\nTransfer de retorno com checklist de documentos e horários de voos alinhados com antecedência."
+          }
+        ]
+      },
+      "serra-gerais": {
+        "title": "Serra Gerais",
+        "description": "Cerrado com personalidade forte: comunidades vivas, trilhas, rios e hospitalidade própria da região.",
+        "altCover": "Paisagem de cerrado e relevos da Serra Gerais",
+        "itineraryIntro": "Roteiro flexível em torno de rios, trilhas e histórias locais — abra os blocos para ver o desenho base.",
+        "panels": [
+          {
+            "title": "Dia 1 — Entrada na região",
+            "body": "Transfer com apresentação do território e primeiras paradas em mirantes de cerrado.\nConversa sobre boas práticas de visita (lixo, volume sonoro, respeito a moradores).\nJantar coletivo e acordo de horários para o dia seguinte."
+          },
+          {
+            "title": "Dia 2 — Trilhas e rios",
+            "body": "Caminhada moderada com guia acompanhando ritmo do grupo.\nParada em trechos de rio com sombra de buriti ou cajueiro.\nTempo livre para banho ou leitura na rede quando a base oferece essa estrutura."
+          },
+          {
+            "title": "Dia 3 — Cultura local e despedida",
+            "body": "Rota breve por comunidades ou artesãos parceiros (quando couber).\nÚltimo almoço regional e transfer de retorno com checklist de bagagem e documentos."
+          }
+        ]
+      }
+    },
+    "ctaRoute": "Cotar este roteiro"
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "lead": "Quem já viajou com a gente costuma repetir uma frase: saímos com menos pressa e mais conexão com o lugar.",
+    "items": [
+      {
+        "name": "Marina Costa",
+        "role": "São Paulo, SP",
+        "quote": "O ritmo foi perfeito: tempo para nadar nos fervedouros, para fotografar ao amanhecer e para conversar à noite. Equipe sempre solícita pelo WhatsApp."
+      },
+      {
+        "name": "Ricardo e Paula",
+        "role": "Brasília, DF",
+        "quote": "Fomos com criança e nos sentimos acolhidos do planejamento à última parada na Chapada. Sem estresse na logística."
+      },
+      {
+        "name": "Anete Souza",
+        "role": "Belém, PA",
+        "quote": "Indicação sincera para quem busca menos ‘pacote corrido’ e mais experiência. Voltaremos para Serra Gerais!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "lead": "Conte seus dias disponíveis, quantas pessoas vão e o destino preferido — respondemos rápido no WhatsApp.",
+    "emailLabel": "E-mail",
+    "whatsappHint": "Respostas rápidas e humanas no WhatsApp",
+    "secondaryCta": "Chamar no WhatsApp",
+    "locationLabel": "Região de atuação",
+    "location": "Tocantins, Brasil · roteiros no Jalapão, Chapada das Mesas e Serra Gerais",
+    "midPageCta": "Pronto para planejar?",
+    "midPageSubtitle": "Uma mensagem no WhatsApp é o suficiente para começarmos."
+  },
+  "ctaBanner": {
+    "title": "Vamos montar sua próxima aventura?",
+    "subtitle": "Abra uma conversa conosco e receba uma proposta alinhada ao seu tempo.",
+    "primary": "Falar pelo WhatsApp"
+  },
+  "footer": {
+    "rights": "© {year} Jalapão Gaviões do Cerrado. Todos os direitos reservados.",
+    "tagline": "Estradas de cerrado · águas cristalinas · boas companhias"
+  },
+  "whatsappMessages": {
+    "hero": "Olá, Jalapão Gaviões do Cerrado! Gostaria de uma cotação personalizada.",
+    "jalapao": "Olá! Tenho interesse no roteiro pelo Jalapão. Podemos conversar?",
+    "chapada-mesas": "Olá! Quero cotar uma experiência pela Chapada das Mesas.",
+    "serra-gerais": "Olá! Gostaria de informações sobre Serra Gerais.",
+    "default": "Olá, Jalapão Gaviões do Cerrado! Pode me ajudar com um roteiro?",
+    "afterRoutes": "Olá, vim pelo site dos roteiros e quero tirar algumas dúvidas rápidas."
+  },
+  "links": {
+    "downloadPdf": "Baixar roteiro em PDF",
+    "newTab": "(abre em nova aba)"
+  }
+}

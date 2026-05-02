@@ -1,0 +1,10 @@
+{
+  "name": "Jalapão Gaviões do Cerrado",
+  "short_name": "Gaviões Cerrado",
+  "lang": "pt-BR",
+  "start_url": "/pt",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#152238",
+  "description": "Roteiros de aventura no Jalapão, Chapada das Mesas e Serra Gerais, Tocantins."
+}

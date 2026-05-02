@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Jalapão Gaviões do Cerrado — Adventure itineraries in Tocantins, Brazil",
+    "description": "Specialized travel boutique for Jalapão, Chapada das Mesas, and Serra Gerais. Human support on WhatsApp, well-paced wilderness trips rooted in Brazil’s cerrado biome.",
+    "keywords": "Jalapão, Tocantins, Chapada das Mesas, Serra Gerais, eco travel, Jalapão Gaviões do Cerrado, Brazil safari"
+  },
+  "a11y": {
+    "mainNavigation": "Primary navigation",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "localeSwitcher": "Website language",
+    "whatsappAria": "Chat on WhatsApp"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "routes": "Itineraries",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Ecotourism & cerrado adventures",
+    "title": "Experience Jalapão and Tocantins with guides shaped by road and wilderness.",
+    "subtitle": "Carefully crafted routes, safety first, sincere hospitality—from first WhatsApp ping to farewell.",
+    "cta": "Get a quote via WhatsApp",
+    "imageAlt": "Jalapão river bordered by cerrado vegetation in natural daylight, green-tinted water"
+  },
+  "about": {
+    "title": "About us",
+    "lead": "We chase wide silences, gold-hour light over savanna grasses, and the pulse of northern Brazil.",
+    "p1": "Jalapão Gaviões do Cerrado curates itineraries that honour each landscape’s pacing, respecting communities and ecosystems while staying close via WhatsApp from planning to postcards home.",
+    "p2": "We serve Jalapão, Chapada das Mesas, and Serra Gerais routes—regions that reinvent themselves with rainy and dry spells.",
+    "bullets": {
+      "b1": "Comfortable pacing for families and intimate groups",
+      "b2": "Iconic must-sees plus local curveballs worth the detours",
+      "b3": "Seasonal logistics, packing lists, and honest expectations",
+      "b4": "WhatsApp concierge—minimal forms, maximal dialogue"
+    },
+    "cadasturNote": "We will showcase the official CADASTUR certificate from Brazil’s tourism ministry once the compliant asset arrives."
+  },
+  "routesSection": {
+    "title": "Itineraries",
+    "lead": "Pick your highlight—we’ll already know why you knocked when WhatsApp pings.",
+    "itineraryHeading": "Itinerary in text — open each block when ready",
+    "itineraryGroupAria": "Expandable itinerary sections for {routeName}",
+    "durations": {
+      "threeFive": "3 to 5 days (tailored timelines)",
+      "fourFive": "4 to 5 days (PDF available)",
+      "threeSeven": "3 to 7 days (tailored timelines)"
+    },
+    "highlights": {
+      "hFervedouros": "Natural pools & river beaches",
+      "hDunas": "Dunes, lookouts & cinematic ridges",
+      "hMico": "Sunrise wildlife & golden-hour scouting",
+      "hCanyon": "Canyon walls & mesa horizons",
+      "hCachoeiras": "Waterfalls with swim breaks",
+      "hHistoria": "Historic hamlets & local voices",
+      "hQuilombos": "Quilombo stories & stewardship",
+      "hTrilhas": "Trail options matched to stamina",
+      "hRio": "Rivers, pools & digital detox pacing"
+    },
+    "items": {
+      "jalapao": {
+        "title": "Jalapão",
+        "description": "State park staples—fervedouros, dunes, Cachoeira da Velha—with breathing room baked into every day.",
+        "altCover": "Jalapão river winding through cerrado greenery",
+        "itineraryIntro": "Illustrative outline—we lock the real order, times, and lodges with you on WhatsApp.",
+        "panels": [
+          {
+            "title": "Day 1 — Arrival",
+            "body": "Pickup at the agreed hub (airport, hotel, or roadside meet point).\nScenic transfers with short stretch breaks.\nCheck-in and light briefing on pacing, hydration, sunscreen, and what sunrise looks like tomorrow."
+          },
+          {
+            "title": "Day 2 — Springs & riverbanks",
+            "body": "Slow introduction to fervedouros and river beaches.\nWide windows for swims and portraits.\nLunch breaks with locals when logistics allow before an early evening rest."
+          },
+          {
+            "title": "Day 3 — Dunes & lookouts",
+            "body": "Optional dune crossings or mellow ridge hikes.\nQuiet golden-hour moments and campfire talks when skies cooperate."
+          },
+          {
+            "title": "Day 4 — Signature falls & farewell",
+            "body": "Big-water viewpoints (e.g. Cachoeira da Velha on your itinerary build), long pauses.\nDepartures synced with onward flights via WhatsApp confirmations."
+          }
+        ]
+      },
+      "chapada-mesas": {
+        "title": "Chapada das Mesas",
+        "description": "Amazon-inflected plateaus begging for wide-angle lenses—long days mirrored by luminous sunsets.",
+        "altCover": "Chapada das Mesas open horizon with plateau vegetation",
+        "itineraryIntro": "Model text—daily flow shifts with seasons and group size.",
+        "panels": [
+          {
+            "title": "Day 1 — Settling into the plateau",
+            "body": "Arrival hospitality and lodging near key lookouts.\nShort neighborhood walk or sunset vantage to acclimate to heat and altitude."
+          },
+          {
+            "title": "Day 2 — Canyons & mesa horizons",
+            "body": "Panoramic belvederes explaining how the sandstone mesas evolved.\nPlenty of water breaks and shaded pauses.\nFlexible timing for drone-free photo sessions."
+          },
+          {
+            "title": "Day 3 — Waterfalls & swims",
+            "body": "Full swim blocks at cascading pools.\nOptional short walks to quieter grottoes when stamina matches."
+          },
+          {
+            "title": "Days 4–5 — Communities & exit",
+            "body": "Considerate visits to artisan partners.\nComfort food stops on the highway back and luggage checks before outbound transfers."
+          }
+        ]
+      },
+      "serra-gerais": {
+        "title": "Serra Gerais",
+        "description": "Vibrant communities, braided rivers, trekking depth—classic cerrado energy with hospitable pacing.",
+        "altCover": "Rolling cerrado ridges in Serra Gerais sunlight",
+        "itineraryIntro": "Flexible circuit around rivers, trails, and local stories.",
+        "panels": [
+          {
+            "title": "Day 1 — Entering the cerrado maze",
+            "body": "Transfer with interpretive roadside stops covering buriti corridors and river basins.\nLow-volume travel etiquette chat over dinner.\nSunrise pact for hikers who crave early light."
+          },
+          {
+            "title": "Day 2 — Trails & braided rivers",
+            "body": "Moderate trekking paced to the slowest teammate.\nSwimholes shaded by palms or sandstone bands.\nHammock naps welcomed when the casa base offers them."
+          },
+          {
+            "title": "Day 3 — Culture & farewell",
+            "body": "Short loops through partner communities.\nFarewell meal and transfer timing matched to onward connections."
+          }
+        ]
+      }
+    },
+    "ctaRoute": "Quote this route"
+  },
+  "testimonials": {
+    "title": "Guest voices",
+    "lead": "What travelers replay most: fewer rushed checklists, more connection to place.",
+    "items": [
+      {
+        "name": "Marina Costa",
+        "role": "São Paulo, Brazil",
+        "quote": "Perfect rhythm—time to float in fervedouros, chase dawn light, and unwind at night. Quick answers on WhatsApp every step."
+      },
+      {
+        "name": "Ricardo & Paula",
+        "role": "Brasília, Brazil",
+        "quote": "We traveled with kids and felt supported from planning to our last Chapada stop. Logistics never felt stressful."
+      },
+      {
+        "name": "Anete Souza",
+        "role": "Belém, Brazil",
+        "quote": "An honest pick for anyone tired of cookie-cutter packages. We’re already plotting the Serra Gerais return."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Share travel dates, party size, and dream destination—we reply fast on WhatsApp.",
+    "emailLabel": "Email",
+    "whatsappHint": "Fast, human responses on WhatsApp",
+    "secondaryCta": "Message on WhatsApp",
+    "locationLabel": "Where we operate",
+    "location": "Tocantins, Brazil · Jalapão, Chapada das Mesas & Serra Gerais",
+    "midPageCta": "Ready to plan?",
+    "midPageSubtitle": "One WhatsApp note is enough to kick things off."
+  },
+  "ctaBanner": {
+    "title": "Ready to map your next adventure?",
+    "subtitle": "Open a chat and we’ll sketch a proposal around your calendar.",
+    "primary": "Chat on WhatsApp"
+  },
+  "footer": {
+    "rights": "© {year} Jalapão Gaviões do Cerrado. All rights reserved.",
+    "tagline": "Cerrado roads · crystal waters · good company"
+  },
+  "whatsappMessages": {
+    "hero": "Hello Jalapão Gaviões do Cerrado! I’d like a tailored quote.",
+    "jalapao": "Hi! I’m interested in a Jalapão itinerary—can we talk?",
+    "chapada-mesas": "Hello! I’d love pricing for Chapada das Mesas.",
+    "serra-gerais": "Hi! May I get details on Serra Gerais routes?",
+    "default": "Hello Jalapão Gaviões do Cerrado! Can you help me plan a trip?",
+    "afterRoutes": "Hi! I saw your itineraries online and have a few quick questions."
+  },
+  "links": {
+    "downloadPdf": "Download itinerary PDF",
+    "newTab": "(opens in a new tab)"
+  }
+}
