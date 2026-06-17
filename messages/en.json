@@ -51,6 +51,7 @@
     "lead": "Pick your highlight—we’ll already know why you knocked when WhatsApp pings.",
     "itineraryGroupAria": "Expandable itinerary sections for {routeName}",
     "durations": {
+      "twoSix": "2 to 6 days (PDF available)",
       "threeFive": "3 to 5 days (tailored timelines)",
       "fourFive": "4 to 5 days (PDF available)",
       "threeSeven": "3 to 7 days (tailored timelines)"
@@ -69,7 +70,8 @@
     "items": {
       "jalapao": {
         "title": "Jalapão",
-        "description": "State park staples—fervedouros, dunes, Cachoeira da Velha—with breathing room baked into every day.",
+        "description": "State park staples—fervedouros, dunes, waterfalls and communities—with 2-to-6-day itineraries paced for immersion.",
+        "pdfDescription": "Complete guide with 5 itinerary options (2–6 days), day-by-day schedules, top highlights and package details.",
         "altCover": "Jalapão river winding through cerrado greenery",
         "panels": [
           {
@@ -97,6 +99,7 @@
       "chapada-mesas": {
         "title": "Chapada das Mesas",
         "description": "Amazon-inflected plateaus begging for wide-angle lenses—long days mirrored by luminous sunsets.",
+        "pdfDescription": "Detailed 5-day itinerary with day-by-day schedule, highlights and practical expedition info.",
         "altCover": "Chapada das Mesas open horizon with plateau vegetation",
         "panels": [
           {
@@ -199,6 +202,7 @@
   },
   "links": {
     "downloadPdf": "Download itinerary PDF",
+    "viewPdf": "View PDF online",
     "newTab": "(opens in a new tab)"
   }
 }

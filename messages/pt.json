@@ -51,6 +51,7 @@
     "lead": "Escolha um destaque e já inicie sua conversa conosco com o contexto da viagem nos primeiros cliques.",
     "itineraryGroupAria": "Trechos expansíveis do roteiro de {routeName}",
     "durations": {
+      "twoSix": "2 a 6 dias (PDF disponível)",
       "threeFive": "3 a 5 dias (sob planejamento)",
       "fourFive": "4 a 5 dias (PDF disponível)",
       "threeSeven": "De 3 a 7 dias (sob planejamento)"
@@ -69,7 +70,8 @@
     "items": {
       "jalapao": {
         "title": "Jalapão",
-        "description": "Ícones do Parque Estadual: fervedouros, dunas do Jalapão, Cachoeira da Velha — roteiros clássicos com ritmo tranquilo.",
+        "description": "Ícones do Parque Estadual: fervedouros, dunas do Jalapão, cachoeiras e comunidades — roteiros de 2 a 6 dias com ritmo tranquilo.",
+        "pdfDescription": "Material completo com 5 opções de roteiro (2 a 6 dias), itinerários dia a dia, principais atrativos e informações do pacote.",
         "altCover": "Rio e paisagem do Jalapão com vegetação de cerrado",
         "panels": [
           {
@@ -97,6 +99,7 @@
       "chapada-mesas": {
         "title": "Chapada das Mesas",
         "description": "Cânions amazônicos tocantinenses com imensidão horizontal: ideal para fotografia e dias longos sob o horizonte aberto.",
+        "pdfDescription": "Roteiro detalhado de 5 dias com itinerário completo, atrativos e informações práticas para a expedição.",
         "altCover": "Chapada das Mesas com vegetação típica e horizonte aberto",
         "panels": [
           {
@@ -199,6 +202,7 @@
   },
   "links": {
     "downloadPdf": "Baixar roteiro em PDF",
+    "viewPdf": "Visualizar PDF online",
     "newTab": "(abre em nova aba)"
   }
 }

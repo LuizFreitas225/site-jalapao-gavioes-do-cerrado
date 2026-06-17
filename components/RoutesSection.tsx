@@ -1,10 +1,9 @@
 import Image from "next/image";
-import { getMessages, getTranslations } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 
 import { routes, type RouteId } from "@/content/routes";
 import { buildWhatsAppHref } from "@/lib/whatsapp";
 
-import { RouteItineraryAccordion } from "./RouteItineraryAccordion";
 import { WhatsAppButton } from "./WhatsAppButton";
 
 type Props = Readonly<{ locale: string }>;
@@ -15,19 +14,10 @@ const routeWaKey: Record<RouteId, "jalapao" | "chapada-mesas" | "serra-gerais"> 
   "serra-gerais": "serra-gerais",
 };
 
-type RouteItemMessages = Readonly<{
-  panels?: readonly { title: string; body: string }[];
-}>;
-
 export async function RoutesSection({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "routesSection" });
   const tWa = await getTranslations({ locale, namespace: "whatsappMessages" });
   const tLinks = await getTranslations({ locale, namespace: "links" });
-  const messages = await getMessages({ locale });
-  const routesSectionBlock = messages.routesSection as unknown as {
-    items: Record<RouteId, RouteItemMessages>;
-  };
-  const itemsByRoute = routesSectionBlock.items;
 
   return (
     <section
@@ -55,8 +45,6 @@ export async function RoutesSection({ locale }: Props) {
 
             const message = tWa(routeWaKey[route.id]);
             const wa = buildWhatsAppHref(message);
-            const itemExtra = itemsByRoute[route.id];
-            const panels = itemExtra?.panels ?? [];
 
             return (
               <article
@@ -83,36 +71,35 @@ export async function RoutesSection({ locale }: Props) {
                     <p className="text-sm text-brand-earth/90">{description}</p>
                   </header>
 
-                  <ul className="space-y-2 text-sm text-brand-navy">
-                    {route.highlightsKeys.map((key) => (
-                      <li key={key} className="flex gap-2">
-                        <span className="font-semibold text-brand-gold" aria-hidden>
-                          ·
-                        </span>
-                        <span>{t(`highlights.${key}`)}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <RouteItineraryAccordion
-                    groupAriaLabel={t("itineraryGroupAria", { routeName: title })}
-                    panels={panels}
-                  />
-
-                  <div className="mt-auto flex flex-col gap-2">
+                  <div className="mt-auto flex flex-col gap-3">
+                    {route.pdfHref ? (
+                      <div className="rounded-2xl border border-brand-gold/35 bg-brand-sand/50 p-4">
+                        <p className="text-sm text-brand-earth/95">
+                          {t(`items.${route.id}.pdfDescription`)}
+                        </p>
+                        <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center">
+                          <a
+                            href={route.pdfHref}
+                            download
+                            className="inline-flex items-center justify-center rounded-full bg-brand-navy px-4 py-2.5 text-sm font-semibold text-brand-sand transition hover:bg-brand-earth"
+                          >
+                            {tLinks("downloadPdf")}
+                          </a>
+                          <a
+                            href={route.pdfHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center rounded-full border border-brand-navy/25 px-4 py-2.5 text-sm font-semibold text-brand-navy transition hover:border-brand-gold hover:text-brand-earth"
+                          >
+                            {tLinks("viewPdf")}
+                            <span className="sr-only"> {tLinks("newTab")}</span>
+                          </a>
+                        </div>
+                      </div>
+                    ) : null}
                     <WhatsAppButton href={wa} ariaLabel={`${title} — WhatsApp`}>
                       {t("ctaRoute")}
                     </WhatsAppButton>
-                    {route.pdfHref ? (
-                      <a
-                        href={route.pdfHref}
-                        className="text-center text-sm font-semibold text-brand-navy underline-offset-4 hover:text-brand-earth hover:underline"
-                        download
-                      >
-                        {tLinks("downloadPdf")}{" "}
-                        <span className="sr-only">{tLinks("newTab")}</span>
-                      </a>
-                    ) : null}
                   </div>
                 </div>
               </article>

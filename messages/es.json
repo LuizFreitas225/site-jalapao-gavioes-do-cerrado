@@ -51,6 +51,7 @@
     "lead": "Elige tu destaque—tu mensaje llegará ya con contexto cuando abras el WhatsApp.",
     "itineraryGroupAria": "Bloques desplegables del itinerario de {routeName}",
     "durations": {
+      "twoSix": "De 2 a 6 días (PDF disponible)",
       "threeFive": "De 3 a 5 días (bajo planeación)",
       "fourFive": "De 4 a 5 días (PDF disponible)",
       "threeSeven": "De 3 a 7 días (bajo planeación)"
@@ -69,7 +70,8 @@
     "items": {
       "jalapao": {
         "title": "Jalapão",
-        "description": "Clásicos del parque estadual—fervedouros, dunas y Cachoeira da Velha—sin correr tanto que se pierdan los detalles.",
+        "description": "Clásicos del parque estadual—fervedouros, dunas, cascadas y comunidades—con itinerarios de 2 a 6 días a ritmo tranquilo.",
+        "pdfDescription": "Guía completa con 5 opciones de itinerario (2–6 días), programación día a día, principales atractivos e información del paquete.",
         "altCover": "Río y cerrado característicos del Jalapão",
         "panels": [
           {
@@ -97,6 +99,7 @@
       "chapada-mesas": {
         "title": "Chapada das Mesas",
         "description": "Mesetas amazónicas tocantinesas hechas para lentes anchos—días largos y sunsets amplios.",
+        "pdfDescription": "Itinerario detallado de 5 días con programación completa, atractivos e información práctica de la expedición.",
         "altCover": "Horizonte abierto sobre la Chapada das Mesas",
         "panels": [
           {
@@ -199,6 +202,7 @@
   },
   "links": {
     "downloadPdf": "Descargar PDF del itinerario",
+    "viewPdf": "Ver PDF en línea",
     "newTab": "(abre en una nueva pestaña)"
   }
 }
