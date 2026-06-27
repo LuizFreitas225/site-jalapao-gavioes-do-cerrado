@@ -14,6 +14,7 @@ export const packageInfo = {
     "Hospedagem e alimentação em Palmas-TO",
     "Frigobar e outros gastos de natureza pessoal",
     "Atividades opcionais: rafting, trekking e tirolesa",
+    "Taxa ambiental",
     "Qualquer item não listado na seção incluso",
     "Passagem aérea",
   ],
