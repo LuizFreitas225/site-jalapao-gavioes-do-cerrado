@@ -27,6 +27,6 @@ export const routes: readonly RouteContent[] = [
     id: "serra-gerais",
     durationsKey: "durations.threeSeven",
     coverImage: "/images/routes/serra-gerais-cover.jpg",
-    pdfHref: undefined,
+    pdfHref: "/downloads/roteiro-serra-gerais-completo.pdf",
   },
 ] as const;
