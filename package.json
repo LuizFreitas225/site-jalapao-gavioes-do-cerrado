@@ -8,7 +8,8 @@
     "export:html": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate:jalapao-pdf": "node scripts/generate-jalapao-pdf.mjs"
+    "generate:jalapao-pdf": "node scripts/generate-jalapao-pdf.mjs",
+    "generate:chapada-mesas-pdf": "node scripts/generate-chapada-mesas-pdf.mjs"
   },
   "dependencies": {
     "next": "^15.1.8",

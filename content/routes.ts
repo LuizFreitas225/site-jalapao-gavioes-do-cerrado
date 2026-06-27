@@ -21,7 +21,7 @@ export const routes: readonly RouteContent[] = [
     id: "chapada-mesas",
     durationsKey: "durations.fourFive",
     coverImage: "/images/routes/chapada-cover.jpg",
-    pdfHref: "/downloads/roteiro-chapada-mesas-5-dias.pdf",
+    pdfHref: "/downloads/roteiro-chapada-mesas-completo.pdf",
   },
   {
     id: "serra-gerais",
