@@ -38,8 +38,19 @@ export async function Hero({ locale }: Props) {
         />
       </div>
 
-      <div className="relative z-10 mx-auto mt-auto flex w-full max-w-6xl flex-col gap-8 px-4 pb-12 pt-24 sm:px-6 sm:pb-14 sm:pt-28 lg:flex-row lg:items-end lg:gap-12 lg:px-8 lg:pb-16">
+      <div className="relative z-10 mx-auto mt-auto flex w-full max-w-6xl flex-col gap-8 px-4 pb-12 pt-10 sm:px-6 sm:pb-14 sm:pt-14 lg:flex-row lg:items-end lg:gap-12 lg:px-8 lg:pb-16">
         <div className="flex-1 space-y-6 text-brand-cream">
+          <div className="inline-flex rounded-full bg-brand-cream p-1.5 shadow-[0_18px_40px_-16px_rgba(0,0,0,0.75)] ring-2 ring-brand-gold sm:p-2">
+            <span className="relative block h-32 w-32 sm:h-40 sm:w-40 lg:h-44 lg:w-44">
+              <Image
+                src="/images/brand/logo-mark.png"
+                alt=""
+                fill
+                sizes="(max-width: 640px) 128px, (max-width: 1024px) 160px, 176px"
+                className="object-contain"
+              />
+            </span>
+          </div>
           <p className="inline-flex rounded-full border border-white/35 bg-black/45 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-brand-sand backdrop-blur-sm [box-shadow:0_1px_0_rgb(255_255_255_/_0.12)]">
             {t("hero.kicker")}
           </p>
