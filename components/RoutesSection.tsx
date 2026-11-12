@@ -57,6 +57,8 @@ export async function RoutesSection({ locale }: Props) {
                     alt={altCover}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
+                    loading="lazy"
+                    fetchPriority="low"
                     className="object-cover"
                   />
                   <span className="absolute left-4 top-4 rounded-full bg-brand-navy/90 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-brand-sand">

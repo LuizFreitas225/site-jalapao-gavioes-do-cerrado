@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL_FALLBACK, SITE_NAME, getProductionBaseUrl } from "@/lib/constants";
+import { SITE_NAME, getProductionBaseUrl } from "@/lib/constants";
 import { instagramProfileUrl, tripAdvisorProfileUrl } from "@/lib/social";
 import { whatsappDigits } from "@/lib/whatsapp";
 
@@ -19,10 +19,7 @@ export function JsonLdTravelAgency({ locale }: Props) {
     name: SITE_NAME,
     url,
     telephone: whatsappDigits(),
-    ...(CONTACT_EMAIL_FALLBACK.includes("example")
-      ? {}
-      : { email: CONTACT_EMAIL_FALLBACK }),
-    logo: `${getProductionBaseUrl()}/images/brand/logo-mark.png`,
+    logo: `${getProductionBaseUrl()}/images/brand/logo-mark.webp`,
     description:
       locale === "en"
         ? "Adventure travel agency focused on Jalapão, Chapada das Mesas, and Serra Gerais in Tocantins, Brazil."

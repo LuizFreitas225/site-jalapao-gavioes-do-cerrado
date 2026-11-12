@@ -123,6 +123,7 @@
       "serra-gerais": {
         "title": "Serra Gerais",
         "description": "Cerrado com personalidade forte: comunidades vivas, trilhas, rios e hospitalidade própria da região.",
+        "pdfDescription": "Material completo com 2 opções de roteiro (4 e 5 dias), itinerários dia a dia, principais atrativos e informações do pacote.",
         "altCover": "Paisagem de cerrado e relevos da Serra Gerais",
         "panels": [
           {
@@ -170,7 +171,6 @@
   "contact": {
     "title": "Contato",
     "lead": "Conte seus dias disponíveis, quantas pessoas vão e o destino preferido — respondemos rápido no WhatsApp.",
-    "emailLabel": "E-mail",
     "whatsappHint": "Respostas rápidas e humanas no WhatsApp",
     "secondaryCta": "Chamar no WhatsApp",
     "locationLabel": "Região de atuação",

@@ -123,6 +123,7 @@
       "serra-gerais": {
         "title": "Serra Gerais",
         "description": "Cerrado con identidad marcada—comunidades vivas, senderos, ríos y hospitalidad marcada.",
+        "pdfDescription": "Guía completa con 2 opciones de itinerario (4 y 5 días), programación día a día, principales atractivos e información del paquete.",
         "altCover": "Relevés del cerrado en Serra Gerais",
         "panels": [
           {
@@ -170,7 +171,6 @@
   "contact": {
     "title": "Contacto",
     "lead": "Cuenta fechas disponibles, cuántos viajan y el destino soñado—respondemos rápido en WhatsApp.",
-    "emailLabel": "Correo",
     "whatsappHint": "Respuestas rápidas y humanas por WhatsApp",
     "secondaryCta": "Escribir por WhatsApp",
     "locationLabel": "Dónde operamos",

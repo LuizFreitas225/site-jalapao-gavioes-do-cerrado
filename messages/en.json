@@ -123,6 +123,7 @@
       "serra-gerais": {
         "title": "Serra Gerais",
         "description": "Vibrant communities, braided rivers, trekking depth—classic cerrado energy with hospitable pacing.",
+        "pdfDescription": "Complete guide with 2 itinerary options (4 and 5 days), day-by-day schedules, top highlights and package details.",
         "altCover": "Rolling cerrado ridges in Serra Gerais sunlight",
         "panels": [
           {
@@ -170,7 +171,6 @@
   "contact": {
     "title": "Contact",
     "lead": "Share travel dates, party size, and dream destination—we reply fast on WhatsApp.",
-    "emailLabel": "Email",
     "whatsappHint": "Fast, human responses on WhatsApp",
     "secondaryCta": "Message on WhatsApp",
     "locationLabel": "Where we operate",

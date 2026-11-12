@@ -29,11 +29,10 @@ export async function Header({ locale }: Props) {
         >
           <span className="relative h-9 w-[7.125rem] shrink-0 overflow-hidden sm:h-12 sm:w-44">
             <Image
-              src="/images/brand/logo-mark.png"
+              src="/images/brand/logo-mark.webp"
               alt={t("meta.title")}
               fill
               sizes="(max-width: 640px) 114px, 176px"
-              priority
               className="object-contain object-left"
             />
           </span>

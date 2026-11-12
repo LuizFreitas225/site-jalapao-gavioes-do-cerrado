@@ -15,18 +15,56 @@ export async function Hero({ locale }: Props) {
     <section
       id="top"
       aria-labelledby="hero-heading"
-      className="relative isolate flex min-h-[min(92svh,56rem)] flex-col overflow-hidden"
+      className="relative isolate flex min-h-[min(92svh,56rem)] flex-col overflow-hidden bg-brand-navy"
     >
+      <link
+        rel="preload"
+        as="image"
+        href="/images/hero/jalapao-fervedouro-aereo-720.avif"
+        type="image/avif"
+        media="(max-width: 640px)"
+        fetchPriority="high"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="/images/hero/jalapao-fervedouro-aereo.avif"
+        type="image/avif"
+        media="(min-width: 641px)"
+        fetchPriority="high"
+      />
       <div className="pointer-events-none absolute inset-0 -z-10">
-        <Image
-          src="/images/hero/jalapao-fervedouro-aereo.jpg"
-          alt={t("hero.imageAlt")}
-          fill
-          priority
-          quality={92}
-          sizes="100vw"
-          className="object-cover object-[center_35%] saturate-[1.03]"
-        />
+        <picture className="absolute inset-0 block h-full w-full">
+          <source
+            media="(max-width: 640px)"
+            srcSet="/images/hero/jalapao-fervedouro-aereo-720.avif"
+            type="image/avif"
+          />
+          <source
+            media="(max-width: 640px)"
+            srcSet="/images/hero/jalapao-fervedouro-aereo-720.webp"
+            type="image/webp"
+          />
+          <source
+            srcSet="/images/hero/jalapao-fervedouro-aereo.avif"
+            type="image/avif"
+          />
+          <source
+            srcSet="/images/hero/jalapao-fervedouro-aereo.webp"
+            type="image/webp"
+          />
+          {/* Foto já comprimida: o <img> nativo permite o preload do AVIF sem o otimizador. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/hero/jalapao-fervedouro-aereo.webp"
+            alt={t("hero.imageAlt")}
+            width={1600}
+            height={1199}
+            fetchPriority="high"
+            decoding="async"
+            className="h-full w-full object-cover object-[center_35%] saturate-[1.03]"
+          />
+        </picture>
         {/* Gradiente inferior (+ leve vinil à esquerda): legibilidade sem “caixa” cobrindo o fervedouro. */}
         <div
           className="absolute inset-0 bg-[linear-gradient(to_top,rgba(21,34,56,0.96)_0%,rgba(21,34,56,0.82)_22%,rgba(21,34,56,0.36)_46%,transparent_74%)]"
@@ -38,8 +76,19 @@ export async function Hero({ locale }: Props) {
         />
       </div>
 
-      <div className="relative z-10 mx-auto mt-auto flex w-full max-w-6xl flex-col gap-8 px-4 pb-12 pt-24 sm:px-6 sm:pb-14 sm:pt-28 lg:flex-row lg:items-end lg:gap-12 lg:px-8 lg:pb-16">
+      <div className="relative z-10 mx-auto mt-auto flex w-full max-w-6xl flex-col gap-8 px-4 pb-12 pt-10 sm:px-6 sm:pb-14 sm:pt-14 lg:flex-row lg:items-end lg:gap-12 lg:px-8 lg:pb-16">
         <div className="flex-1 space-y-6 text-brand-cream">
+          <div className="inline-flex rounded-full bg-brand-cream p-1.5 shadow-[0_18px_40px_-16px_rgba(0,0,0,0.75)] ring-2 ring-brand-gold sm:p-2">
+            <span className="relative block h-32 w-32 sm:h-40 sm:w-40 lg:h-44 lg:w-44">
+              <Image
+                src="/images/brand/logo-mark.webp"
+                alt=""
+                fill
+                sizes="(max-width: 640px) 128px, (max-width: 1024px) 160px, 176px"
+                className="object-contain"
+              />
+            </span>
+          </div>
           <p className="inline-flex rounded-full border border-white/35 bg-black/45 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-brand-sand backdrop-blur-sm [box-shadow:0_1px_0_rgb(255_255_255_/_0.12)]">
             {t("hero.kicker")}
           </p>

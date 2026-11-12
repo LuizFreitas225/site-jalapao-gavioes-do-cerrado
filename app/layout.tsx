@@ -7,16 +7,20 @@ import { SITE_NAME } from "@/lib/constants";
 
 const fontSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600"],
   variable: "--font-sans",
   display: "swap",
+  preload: false,
+  adjustFontFallback: true,
 });
 
 const fontDisplay = Outfit({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["600"],
   variable: "--font-display",
   display: "swap",
+  preload: true,
+  adjustFontFallback: true,
 });
 
 export const viewport: Viewport = {
@@ -32,8 +36,8 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   icons: {
-    icon: [{ url: "/images/brand/logo-mark.png", type: "image/png" }],
-    apple: [{ url: "/images/brand/logo-mark.png", type: "image/png", sizes: "180x180" }],
+    icon: [{ url: "/favicon-32.png", type: "image/png", sizes: "32x32" }],
+    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
   },
 };
 
