@@ -14,6 +14,8 @@
 
 # production
 /build
+/public_html
+/jalapao-gavioes-cpanel.zip
 
 # misc
 .DS_Store

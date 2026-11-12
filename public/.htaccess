@@ -1,0 +1,17 @@
+DirectoryIndex index.html
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # A raiz do domínio abre o site em português.
+  RewriteRule ^$ /pt/ [R=302,L]
+
+  # Pastas do Next ( /pt, /en, /es ) ganham a barra final.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.*)$ /$1/ [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /404.html
