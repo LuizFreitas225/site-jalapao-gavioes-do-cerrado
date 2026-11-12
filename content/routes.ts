@@ -14,19 +14,19 @@ export const routes: readonly RouteContent[] = [
   {
     id: "jalapao",
     durationsKey: "durations.twoSix",
-    coverImage: "/images/routes/jalapao-cover.webp",
+    coverImage: "/images/routes/jalapao-cover.jpg",
     pdfHref: "/downloads/roteiro-jalapao-completo.pdf",
   },
   {
     id: "chapada-mesas",
     durationsKey: "durations.fourFive",
-    coverImage: "/images/routes/chapada-cover.webp",
+    coverImage: "/images/routes/chapada-cover.jpg",
     pdfHref: "/downloads/roteiro-chapada-mesas-completo.pdf",
   },
   {
     id: "serra-gerais",
     durationsKey: "durations.threeSeven",
-    coverImage: "/images/routes/serra-gerais-cover.webp",
+    coverImage: "/images/routes/serra-gerais-cover.jpg",
     pdfHref: "/downloads/roteiro-serra-gerais-completo.pdf",
   },
 ] as const;

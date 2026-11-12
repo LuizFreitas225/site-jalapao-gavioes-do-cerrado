@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
@@ -24,7 +24,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const base = getProductionBaseUrl();
   const title = t("title");
   const description = t("description");
-  const ogImageUrl = `${base}/images/routes/jalapao-cover.webp`;
+  const ogImageUrl = `${base}/images/routes/jalapao-cover.jpg`;
 
   return {
     metadataBase: new URL(base),
@@ -56,7 +56,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
             ? "es_ES"
             : "en_US",
       alternateLocale: ["pt_BR", "en_US", "es_ES"],
-      images: [{ url: ogImageUrl, width: 960, height: 960, alt: title }],
+      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: title }],
       url: `/${locale}`,
     },
     twitter: {
@@ -76,9 +76,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider locale={locale as Locale} messages={{}}>
+    <NextIntlClientProvider locale={locale as Locale} messages={messages}>
       <LocaleHtmlLang />
       {children}
     </NextIntlClientProvider>

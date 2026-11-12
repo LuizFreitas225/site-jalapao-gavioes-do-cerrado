@@ -54,12 +54,10 @@ export async function Footer({ locale }: Props) {
               className="block overflow-hidden rounded-lg ring-2 ring-white/25 transition-opacity hover:opacity-95 hover:ring-white/45 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-gold"
             >
               <Image
-                src="/images/cadastur-certificado.webp"
+                src="/images/cadastur-certificado.png"
                 alt={t("cadasturAlt")}
-                width={760}
-                height={546}
-                loading="lazy"
-                fetchPriority="low"
+                width={1024}
+                height={736}
                 className="h-auto w-full bg-white"
                 sizes="(max-width: 640px) 100vw, 380px"
               />

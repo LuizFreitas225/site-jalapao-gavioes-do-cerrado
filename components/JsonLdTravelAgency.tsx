@@ -19,7 +19,7 @@ export function JsonLdTravelAgency({ locale }: Props) {
     name: SITE_NAME,
     url,
     telephone: whatsappDigits(),
-    logo: `${getProductionBaseUrl()}/images/brand/logo-mark.webp`,
+    logo: `${getProductionBaseUrl()}/images/brand/logo-mark.png`,
     description:
       locale === "en"
         ? "Adventure travel agency focused on Jalapão, Chapada das Mesas, and Serra Gerais in Tocantins, Brazil."
